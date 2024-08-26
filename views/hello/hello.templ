@@ -1,0 +1,11 @@
+package hello
+
+import (
+    "my-blog-goth/views/layouts"
+)
+
+templ Hello(name string) {
+    @layouts.Base() {
+        <div class="text-lg text-gray-500 bg-red-500">Hello, I'm handsome {name} ok</div>
+    }
+}
